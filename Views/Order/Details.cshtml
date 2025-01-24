@@ -1,0 +1,90 @@
+﻿@model TechXpress.Models.Order
+
+@{
+    ViewData["Title"] = "Order Details";
+}
+
+<h2>Order Details</h2>
+
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">ID</dt>
+        <dd class="col-sm-10">@Model.Id</dd>
+
+        <dt class="col-sm-2">Order Date</dt>
+        <dd class="col-sm-10">@Model.OrderDate.ToString("yyyy-MM-dd HH:mm:ss")</dd>
+
+        <dt class="col-sm-2">User</dt>
+        <dd class="col-sm-10">@Model.User?.UserName</dd> <!-- Assuming User has a UserName property -->
+    </dl>
+</div>
+
+<!-- Order Details -->
+<h4>Order Items</h4>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.OrderDetails)
+        {
+            <tr>
+                <td>@item.Product?.Name</td> <!-- Assuming Product has a Name property -->
+                <td>@item.Quantity</td>
+                <td>@item.Product?.Price.ToString("C")</td> <!-- Assuming Product has a Price property -->
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Payments -->
+<h4>Payments</h4>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Payment Date</th>
+            <th>Amount</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var payment in Model.Payments)
+        {
+            <tr>
+                <td>@payment.PaymentDate.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                <td>@payment.Amount.ToString("C")</td>
+                <td>@payment.Status</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Shippings -->
+<h4>Shippings</h4>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Shipping Date</th>
+            <th>Status</th>
+            <th>Tracking Number</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var shipping in Model.Shippings)
+        {
+            <tr>
+                <td>@shipping.ShippingDate.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                <td>@shipping.Status</td>
+                <td>@shipping.TrackingNumber</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</div>

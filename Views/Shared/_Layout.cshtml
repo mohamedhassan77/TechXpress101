@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - TechXpress</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <style>
+        body {
+            background-color: #f8f9fa;
+            margin-left: 60px; /* Initial margin for collapsed side nav */
+            transition: margin-left 0.3s; /* Smooth transition for content shift */
+        }
+
+        .sidenav {
+            height: 100%;
+            width: 60px; /* Collapsed width */
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #007bff;
+            overflow-x: hidden;
+            transition: 0.3s;
+            padding-top: 20px;
+            z-index: 1000; /* Ensure side nav is above other content */
+        }
+
+            .sidenav:hover {
+                width: 250px; /* Expanded width */
+            }
+
+                .sidenav:hover ~ .main-content {
+                    margin-left: 250px; /* Shift content when side nav expands */
+                }
+
+            .sidenav a {
+                padding: 10px 15px;
+                text-decoration: none;
+                font-size: 18px;
+                color: white;
+                display: block;
+                transition: 0.2s;
+                white-space: nowrap; /* Prevent text from wrapping */
+            }
+
+                .sidenav a:hover {
+                    background-color: #0056b3;
+                }
+
+            .sidenav .nav-icon {
+                margin-right: 15px;
+            }
+
+        .main-content {
+            padding: 20px;
+            transition: margin-left 0.3s; /* Smooth transition for content shift */
+        }
+    </style>
+</head>
+<body>
+    <!-- Side Navigation Bar -->
+    <div class="sidenav">
+        <a href="/">
+            <i class="fas fa-home nav-icon"></i>
+            <span class="nav-text">Home</span>
+        </a>
+        <a asp-area="" asp-controller="Product" asp-action="Index">
+            <i class="fas fa-box nav-icon"></i>
+            <span class="nav-text">Products</span>
+        </a>
+        <a asp-area="" asp-controller="Category" asp-action="Index">
+            <i class="fas fa-list nav-icon"></i>
+            <span class="nav-text">Categories</span>
+        </a>
+        <a asp-area="" asp-controller="Order" asp-action="Index">
+            <i class="fas fa-shopping-cart nav-icon"></i>
+            <span class="nav-text">Orders</span>
+        </a>
+        <a asp-area="" asp-controller="UserProfile" asp-action="Index">
+            <i class="fas fa-user nav-icon"></i>
+            <span class="nav-text">Profile</span>
+        </a>
+        <a asp-area="" asp-controller="Cart" asp-action="Index">
+            <i class="fas fa-shopping-basket nav-icon"></i>
+            <span class="nav-text">Cart</span>
+        </a>
+        <a asp-area="" asp-controller="Wishlist" asp-action="Index">
+            <i class="fas fa-heart nav-icon"></i>
+            <span class="nav-text">Wishlist</span>
+        </a>
+        <a asp-area="" asp-controller="Review" asp-action="Index">
+            <i class="fas fa-star nav-icon"></i>
+            <span class="nav-text">Reviews</span>
+        </a>
+        <a asp-area="" asp-controller="Shipping" asp-action="Index">
+            <i class="fas fa-truck nav-icon"></i>
+            <span class="nav-text">Shipping</span>
+        </a>
+        <a asp-area="" asp-controller="Payment" asp-action="Index">
+            <i class="fas fa-credit-card nav-icon"></i>
+            <span class="nav-text">Payments</span>
+        </a>
+        <a asp-area="" asp-controller="AuditLog" asp-action="Index">
+            <i class="fas fa-clipboard-list nav-icon"></i>
+            <span class="nav-text">Audit Logs</span>
+        </a>
+        <a asp-area="" asp-controller="Error" asp-action="HttpStatusCodeHandler" asp-route-statusCode="404">
+            <i class="fas fa-exclamation-circle nav-icon"></i>
+            <span class="nav-text">Test 404 Error</span>
+        </a>
+        <a asp-area="" asp-controller="Error" asp-action="HttpStatusCodeHandler" asp-route-statusCode="500">
+            <i class="fas fa-exclamation-triangle nav-icon"></i>
+            <span class="nav-text">Test 500 Error</span>
+        </a>
+        <a asp-area="" asp-controller="Home" asp-action="Privacy">
+            <i class="fas fa-shield-alt nav-icon"></i>
+            <span class="nav-text">Privacy</span>
+        </a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        @RenderBody()
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+﻿@model IEnumerable<TechXpress.Models.Payment>
+
+@{
+    ViewData["Title"] = "Payments";
+}
+
+<h2>Payments</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Order ID</th>
+            <th>Payment Date</th>
+            <th>Amount</th>
+            <th>Payment Method</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var payment in Model)
+        {
+            <tr>
+                <td>@payment.Id</td>
+                <td>@payment.OrderId</td>
+                <td>@payment.PaymentDate.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                <td>@payment.Amount.ToString("C")</td>
+                <td>@payment.PaymentMethod</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@payment.Id" class="btn btn-info">Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

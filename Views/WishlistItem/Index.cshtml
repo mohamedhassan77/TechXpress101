@@ -1,0 +1,31 @@
+﻿@model IEnumerable<TechXpress.Models.WishlistItem>
+
+@{
+    ViewData["Title"] = "Wishlist Items";
+}
+
+<h2>Wishlist Items</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Wishlist ID</th>
+            <th>Product</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var wishlistItem in Model)
+        {
+            <tr>
+                <td>@wishlistItem.Id</td>
+                <td>@wishlistItem.WishlistId</td>
+                <td>@wishlistItem.Product?.Name</td> <!-- Assuming Product has a Name property -->
+                <td>
+                    <a asp-action="Details" asp-route-id="@wishlistItem.Id" class="btn btn-info">Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

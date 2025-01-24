@@ -1,0 +1,221 @@
+is_global = true
+build_property.TargetFramework = net9.0
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TechXpress
+build_property.RootNamespace = TechXpress
+build_property.ProjectDir = E:\course\Iti\depi\project\CODE\TechXpress\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\course\Iti\depi\project\CODE\TechXpress
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[E:/course/Iti/depi/project/CODE/TechXpress/Views/Address/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkcmVzc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/course/Iti/depi/project/CODE/TechXpress/Views/Address/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkcmVzc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/course/Iti/depi/project/CODE/TechXpress/Views/Address/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkcmVzc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/course/Iti/depi/project/CODE/TechXpress/Views/Address/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkcmVzc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/course/Iti/depi/project/CODE/TechXpress/Views/Address/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkcmVzc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/course/Iti/depi/project/CODE/TechXpress/Views/AuditLog/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVkaXRMb2dcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/course/Iti/depi/project/CODE/TechXpress/Views/AuditLog/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVkaXRMb2dcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/course/Iti/depi/project/CODE/TechXpress/Views/CartItem/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydEl0ZW1cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/course/Iti/depi/project/CODE/TechXpress/Views/CartItem/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydEl0ZW1cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/course/Iti/depi/project/CODE/TechXpress/Views/Cart/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/course/Iti/depi/project/CODE/TechXpress/Views/Cart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/course/Iti/depi/project/CODE/TechXpress/Views/Category/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/course/Iti/depi/project/CODE/TechXpress/Views/Category/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/course/Iti/depi/project/CODE/TechXpress/Views/Category/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/course/Iti/depi/project/CODE/TechXpress/Views/Category/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/course/Iti/depi/project/CODE/TechXpress/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/course/Iti/depi/project/CODE/TechXpress/Views/Error/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/course/Iti/depi/project/CODE/TechXpress/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/course/Iti/depi/project/CODE/TechXpress/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/course/Iti/depi/project/CODE/TechXpress/Views/OrderDetail/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/course/Iti/depi/project/CODE/TechXpress/Views/OrderDetail/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/course/Iti/depi/project/CODE/TechXpress/Views/Order/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/course/Iti/depi/project/CODE/TechXpress/Views/Order/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/course/Iti/depi/project/CODE/TechXpress/Views/Payment/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/course/Iti/depi/project/CODE/TechXpress/Views/Payment/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/course/Iti/depi/project/CODE/TechXpress/Views/Product/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/course/Iti/depi/project/CODE/TechXpress/Views/Product/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/course/Iti/depi/project/CODE/TechXpress/Views/Product/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/course/Iti/depi/project/CODE/TechXpress/Views/Product/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/course/Iti/depi/project/CODE/TechXpress/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/course/Iti/depi/project/CODE/TechXpress/Views/Review/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/course/Iti/depi/project/CODE/TechXpress/Views/Review/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3XERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/course/Iti/depi/project/CODE/TechXpress/Views/Review/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3XERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/course/Iti/depi/project/CODE/TechXpress/Views/Review/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/course/Iti/depi/project/CODE/TechXpress/Views/Review/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/course/Iti/depi/project/CODE/TechXpress/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/course/Iti/depi/project/CODE/TechXpress/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/course/Iti/depi/project/CODE/TechXpress/Views/Shipping/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hpcHBpbmdcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/course/Iti/depi/project/CODE/TechXpress/Views/Shipping/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hpcHBpbmdcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/course/Iti/depi/project/CODE/TechXpress/Views/UserProfile/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclByb2ZpbGVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/course/Iti/depi/project/CODE/TechXpress/Views/UserProfile/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclByb2ZpbGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/course/Iti/depi/project/CODE/TechXpress/Views/WishlistItem/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2lzaGxpc3RJdGVtXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/course/Iti/depi/project/CODE/TechXpress/Views/WishlistItem/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2lzaGxpc3RJdGVtXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/course/Iti/depi/project/CODE/TechXpress/Views/Wishlist/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2lzaGxpc3RcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/course/Iti/depi/project/CODE/TechXpress/Views/Wishlist/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2lzaGxpc3RcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/course/Iti/depi/project/CODE/TechXpress/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/course/Iti/depi/project/CODE/TechXpress/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/course/Iti/depi/project/CODE/TechXpress/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-e0omrgwwvw

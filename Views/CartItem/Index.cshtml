@@ -1,0 +1,33 @@
+﻿@model IEnumerable<TechXpress.Models.CartItem>
+
+@{
+    ViewData["Title"] = "Cart Items";
+}
+
+<h2>Cart Items</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Cart ID</th>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.CartId</td>
+                <td>@item.Product?.Name</td> <!-- Assuming Product has a Name property -->
+                <td>@item.Quantity</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info">Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

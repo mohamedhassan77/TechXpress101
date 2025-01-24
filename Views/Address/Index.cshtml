@@ -1,0 +1,51 @@
+﻿@model IEnumerable<TechXpress.Models.Address>
+
+@{
+    ViewData["Title"] = "Addresses";
+}
+
+<h2>Addresses</h2>
+<p>
+    <a asp-action="Create" class="btn btn-custom">
+        <i class="fas fa-plus"></i> Create New
+    </a>
+</p>
+<table class="table table-hover">
+    <thead class="thead-light">
+        <tr>
+            <th>Full Name</th>
+            <th>Address Line 1</th>
+            <th>City</th>
+            <th>State</th>
+            <th>Zip Code</th>
+            <th>Country</th>
+            <th>Default</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.FullName</td>
+                <td>@item.AddressLine1</td>
+                <td>@item.City</td>
+                <td>@item.State</td>
+                <td>@item.ZipCode</td>
+                <td>@item.Country</td>
+                <td>@(item.IsDefault ? "Yes" : "No")</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">
+                        <i class="fas fa-edit"></i> Edit
+                    </a>
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-info">
+                        <i class="fas fa-info-circle"></i> Details
+                    </a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">
+                        <i class="fas fa-trash"></i> Delete
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

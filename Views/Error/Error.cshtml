@@ -1,0 +1,27 @@
+﻿@model TechXpress.Models.ErrorViewModel
+
+@{
+    ViewData["Title"] = "Error";
+}
+
+<h2>Error</h2>
+
+<div class="alert alert-danger">
+    <h3>Status Code: @Model.StatusCode</h3>
+    <p>@Model.ErrorMessage</p>
+</div>
+
+ 
+@if (!string.IsNullOrEmpty(Model.StackTrace))
+{
+    <div class="card">
+        <div class="card-header">
+            <strong>Stack Trace</strong>
+        </div>
+        <div class="card-body">
+            <pre>@Model.StackTrace</pre>
+        </div>
+    </div>
+}
+
+<a href="/" class="btn btn-primary mt-3">Go to Home</a>

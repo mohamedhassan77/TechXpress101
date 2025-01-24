@@ -1,0 +1,37 @@
+﻿@model IEnumerable<TechXpress.Models.Shipping>
+
+@{
+    ViewData["Title"] = "Shippings";
+}
+
+<h2>Shippings</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Order ID</th>
+            <th>Shipping Date</th>
+            <th>Status</th>
+            <th>Tracking Number</th>
+            <th>Shipping Method</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var shipping in Model)
+        {
+            <tr>
+                <td>@shipping.Id</td>
+                <td>@shipping.OrderId</td>
+                <td>@shipping.ShippingDate.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                <td>@shipping.Status</td>
+                <td>@shipping.TrackingNumber</td>
+                <td>@shipping.ShippingMethod</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@shipping.Id" class="btn btn-info">Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,31 @@
+﻿@model IEnumerable<TechXpress.Models.Cart>
+
+@{
+    ViewData["Title"] = "Carts";
+}
+
+<h2>Carts</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>User</th>
+            <th>Number of Items</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var cart in Model)
+        {
+            <tr>
+                <td>@cart.Id</td>
+                <td>@cart.User?.UserName</td> <!-- Assuming User has a UserName property -->
+                <td>@cart.CartItems?.Count</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@cart.Id" class="btn btn-info">Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

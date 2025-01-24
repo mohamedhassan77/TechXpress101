@@ -1,0 +1,41 @@
+﻿@model TechXpress.Models.Wishlist
+
+@{
+    ViewData["Title"] = "Wishlist Details";
+}
+
+<h2>Wishlist Details</h2>
+
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">ID</dt>
+        <dd class="col-sm-10">@Model.Id</dd>
+
+        <dt class="col-sm-2">User</dt>
+        <dd class="col-sm-10">@Model.User?.UserName</dd> <!-- Assuming User has a UserName property -->
+    </dl>
+</div>
+
+<!-- Wishlist Items -->
+<h4>Wishlist Items</h4>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Product</th>
+            <th>Added Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.WishlistItems)
+        {
+            <tr>
+                <td>@item.Product?.Name</td> <!-- Assuming Product has a Name property -->
+                <td>@item.AddedDate.ToString("yyyy-MM-dd HH:mm:ss")</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</div>
